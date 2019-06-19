@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>LearnAngularElement</title>
+  <script src="button-element.js"></script>
+</head>
+
+<body>
+  <common-panel title="我的面板" label="按钮名称"></common-panel>
+
+  <script>
+    const button = document.querySelector('common-panel');
+    button.addEventListener('clickBtn', (event) => {
+      console.log(`${event.detail}`);
+    })
+  </script>
+</body>
+
+</html>
