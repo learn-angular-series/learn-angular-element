@@ -7,7 +7,7 @@
 ## 用法
 
 - git clone 本项目
-- learn-angular-element
+- cd learn-angular-element
 - npm i -g http-server
 - npm i -g concat
 - npm i 
