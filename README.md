@@ -1,8 +1,8 @@
 # learn-angular-element
 
-这是一个教学项目，用来示范 @angular/element 的用法。
-
 @angular/element 是一个强大的工具，可以用来定义框架无关的HTML标签，从而可以创建出通用的组件，其整体上的效果非常类似于WebComponent。
+
+这是一个教学项目，用来示范 @angular/element 的用法。
 
 ## 用法
 
@@ -13,12 +13,12 @@
 - npm i 
 - npm run build
 - npm run package
-- 修改./dist/learn-angular-elementindex.html，把最底部的script标签删掉，因为拼接好的js里面已经包含了全部脚本，不依赖外部任何内容
+- 修改./dist/learn-angular-element/index.html，把最底部的script标签删掉，因为拼接好的js里面已经包含了全部脚本，不依赖外部任何内容
 - cd ./dist/learn-angular-element
 - http-server
 - 打开浏览器访问 http://localhost:8080/index.html 就可以看到效果
 
-实例已经针对当前最新的 Angular 8.0 版本做了兼容处理。
+实例已经针对当前最新的 Angular 9.0 版本做了兼容处理。
 
 ## 备注
 
